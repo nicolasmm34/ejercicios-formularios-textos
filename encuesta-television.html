@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+    <form action="television.html" method="get">
+        <fieldset>
+            <legend>Género Favorito</legend>
+            <input type="radio" name="genero" id="drama">
+            <label for="drama">Drama</label>
+            <br>
+            <input type="radio" name="genero" id="comedia">
+            <label for="comedia">Comedia</label>
+            <br>
+            <input type="radio" name="genero" id="accion">
+            <label for="accion">Acción</label>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Programa Favorito</legend>
+            <label for="favorito">Título del programa favorito: </label>
+            <input type="text" name="favorito" id="favorito">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Plataformas de Transmisión</legend>
+            <label for="plat">Plataformas de transmisión:</label>
+            <br>
+            <select name="plat" id="plat" size="4">
+                <option value="netflix">Netflix</option>
+                <option value="hulu">Hulu</option>
+                <option value="prime">Amazon Prime</option>
+                <option value="disney">Disney +</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar datos">
+    </form>
+</body>
+</html>

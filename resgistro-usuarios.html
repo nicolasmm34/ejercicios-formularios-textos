@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ea">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuarios</title>
+</head>
+<body>
+   <h1>Registro de usuarios</h1> 
+   <form action="resgistro.html" method="get">
+    <fieldset>
+        <legend>Información de Usuario</legend>
+        <label for="nombre">Nombre de usuario: </label>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+        <label for="correo">Correo electrónico: </label>
+        <input type="text" name="correo" id="correo">
+        <br>
+        <label for="contrasenia">Contraseña: </label>
+        <input type="text" name="contrasenia" id="contrasenia">
+        <br>
+        <label for="confirmacion">Confirmar contraseña: </label>
+        <input type="text" name="confirmacion" id="confirmacion">
+    </fieldset>
+    <fieldset>
+        <legend>País de Residencia</legend>
+        <label for="pais">País de residencia: </label>
+        <select name="pais" id="pais">
+            <option value="EEUU">Estados Unidos</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Términos y Condiciones</legend>
+        <input type="checkbox" name="acepto" id="acepto">
+        <label for="acepto">Acepto los términos y condiciones</label>
+    </fieldset>
+    <input type="submit" value="Registrarse">
+    <input type="reset" value="Borrar datos">
+   </form>
+</body>
+</html>
