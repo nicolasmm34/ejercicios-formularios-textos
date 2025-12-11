@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Encuesta televisiva</h1>
+    <form action="encuesta.html" method="get">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="edad">Edad: </label>
+                        <input type="text" name="edad" id="edad" size="2">
+                    </td>
+                    <td colspan="2">
+                        <label for="habitantes">Habitantes en la casa: </label>
+                        <select name="habitantes" id="habitantes">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sexo">Sexo: </label>
+                        <input type="radio" name="sexo" id="hombre">
+                        <label for="hombre">Hombre</label>
+                        <input type="radio" name="sexo" id="mujer">
+                        <label for="mujer">Mujer</label>
+                    </td>
+                    <td colspan="2">
+                        <label for="televisores">Televisores en la casa: </label>
+                        <input type="radio" name="televisores" id="0">
+                        <label for="0">0</label>
+                        <input type="radio" name="televisores" id="1">
+                        <label for="1">1</label>
+                        <input type="radio" name="televisores" id="2">
+                        <label for="2">2</label>
+                        <input type="radio" name="televisores" id="3">
+                        <label for="3">3</label>
+                        <input type="radio" name="televisores" id="4">
+                        <label for="4">4 o más</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Lugares en los que hay televisión en casa:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="comedor" id="comedor">
+                        <label for="comerdor">Comedor</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="cocina" id="cocina">
+                         <label for="cocina">Cocina</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="banio" id="banio">
+                        <label for="banio">Baño</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="dor_padres" id="dor_padres">
+                        <label for="dor_padres">Dormitorios padres</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="dor_hijos" id="dor_hijos">
+                        <label for="dor_hijos">Dormitorio hijos</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="otros" id="otros">
+                        <label for="otros">Otros</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                        <input type="submit" value="Borrar">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

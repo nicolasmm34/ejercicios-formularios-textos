@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmética Profesional</title>
+</head>
+<body>
+    <h1>Cosmética Profesional</h1>
+    <form action="cosmeticos.html" method="get">
+        <fieldset>
+            <legend>Formulario de pedido</legend>
+            <h2>Identificación</h2>
+            <fieldset>
+                <legend>Datos del cliente</legend>
+                <label for="correo">Correo electrónico: </label>
+                <input type="text" name="correo" id="correo">
+                <br>
+                <label for="contrasena">Contraseña: </label>
+                <input type="text" name="contrasena" id="contrasena">
+                <p><i>Longitud mínima 6 caracteres</i></p>
+                <label for="direccion">Dirección de envío: </label>
+                <input type="text" name="direccion" id="direccion">
+            </fieldset>
+            <fieldset>
+                <legend>Tipo de cliente</legend>
+                <input type="radio" name="tipo_cliente" id="particular" value="P">
+                <label for="particular">Particular</label>
+                <input type="radio" name="tipo_cliente" id="empresa" value="E">
+                <label for="empresa">Empresa</label>
+            </fieldset>
+            <h2>Datos de pedido</h2>
+            <fieldset>
+                <legend>Datos del producto</legend>
+                <select name="datos_producto" id="datos_producto" onfocus="size=5" onblur="size=1">
+                    <optgroup>
+                        <legend>Solares</legend>
+                        <option value="sol-01">Sol-01 Solar Indice 8</option>
+                        <option value="sol-02">Sol-02 Solar Indice 15</option>
+                        <option value="sol-03">Sol-03 Solar Indice 50</option>
+                    </optgroup>
+                    <optgroup>
+                        <legend>Labiales</legend>
+                        <option value="lab-01">Lab-01 Gloss Red</option>
+                        <option value="lab-02">Lab-02 Gloss Brown</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Observaciones</legend>
+                <p>
+                    <textarea name="observaciones" id="observaciones" rows="5" cols="50">Escriba aquí sus observaciones</textarea>
+                </p>
+                <input type="checkbox" name="ofertas" id="ofertas" value="si" checked>
+                <label for="ofertas">Deseo recibir información sobre ofertas y novedades</label>
+            </fieldset>
+            <fieldset>
+                <legend>Datos bancarios</legend>
+                <label for="num_tarjeta">Número de tarjeta</label>
+                <input type="text" name="num_tarjeta" id="num_tarjeta">
+                <label for="fecha_caducidad">Fecha de caducidad</label>
+                <input type="text" name="fecha_caducidad" id="fecha_caducidad">
+            </fieldset>
+            <input type="submit" value="Aceptar">
+            <input type="submit" value="Borrar">
+        </fieldset>
+    </form>
+</body>
+</html>
