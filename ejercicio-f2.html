@@ -34,15 +34,13 @@
             <h2>Datos de pedido</h2>
             <fieldset>
                 <legend>Datos del producto</legend>
-                <select name="datos_producto" id="datos_producto" onfocus="size=5" onblur="size=1">
-                    <optgroup>
-                        <legend>Solares</legend>
+                <select name="datos_producto" id="datos_producto" size="5">
+                    <optgroup label="Solares">
                         <option value="sol-01">Sol-01 Solar Indice 8</option>
                         <option value="sol-02">Sol-02 Solar Indice 15</option>
                         <option value="sol-03">Sol-03 Solar Indice 50</option>
                     </optgroup>
-                    <optgroup>
-                        <legend>Labiales</legend>
+                    <optgroup label="Labiales">
                         <option value="lab-01">Lab-01 Gloss Red</option>
                         <option value="lab-02">Lab-02 Gloss Brown</option>
                     </optgroup>
@@ -64,8 +62,8 @@
                 <label for="fecha_caducidad">Fecha de caducidad</label>
                 <input type="text" name="fecha_caducidad" id="fecha_caducidad">
             </fieldset>
-            <input type="submit" value="Aceptar">
-            <input type="submit" value="Borrar">
+            <input type="submit" value="Aceptar" name="aceptar" id="aceptar">
+            <input type="reset" value="Borrar" name="borrar" id="borrar">
         </fieldset>
     </form>
 </body>

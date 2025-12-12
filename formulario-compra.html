@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de compra</title>
+</head>
+<body>
+    <h1>Datos de pago</h1>
+    <form action="compra.html" method="get">
+        <fieldset>
+            <legend>Información personal</legend>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <label for="direccion_envio">Dirección de envío: </label>
+            <input type="text" name="direccion_envio" id="direccion_envio">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Información de pago</legend>
+            <label for="tarjeta">Número de tarjeta de crédito: </label>
+            <input type="text" name="tarjeta" id="tarjeta">
+            <br>
+            <label for="vencimiento">Fecha de vencimiento: </label>
+            <input type="date" name="vencimiento" id="vencimiento">
+            <br>
+            <label for="tipo">Tipo de tarjeta: </label>
+            <select name="tipo" id="tipo">
+                <option value="visa">Visa</option>
+                <option value="master">MasterCard</option>
+                <option value="express">American Express</option>
+                <option value="discover">Discover</option>
+            </select>
+            <br>
+            <label for="cvv">CVV: </label>
+            <input type="text" name="cvv" id="cvv" size="3">
+        </fieldset>
+        <input type="submit" value="Pagar" name="pagar" id="pagar">
+        <input type="reset" value="Borrar datos" name="borrar" id="borrar">
+    </form>
+</body>
+</html>
