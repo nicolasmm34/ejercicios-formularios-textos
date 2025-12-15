@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/estilos-f3.css">
     <title>Document</title>
 </head>
 
@@ -15,11 +16,11 @@
             <table>
                 <tr>
                     <td>
-                        <label for="edad">Edad: </label>
+                        <label for="edad" class="under">Edad: </label>
                         <input type="text" name="edad" id="edad" size="2">
                     </td>
                     <td colspan="2">
-                        <label for="habitantes">Habitantes en la casa: </label>
+                        <label for="habitantes" class="under">Habitantes en la casa: </label>
                         <select name="habitantes" id="habitantes">
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -31,14 +32,14 @@
                 </tr>
                 <tr>
                     <td>
-                        <label for="sexo">Sexo: </label>
+                        <label for="sexo" class="under">Sexo: </label>
                         <input type="radio" name="sexo" id="hombre">
                         <label for="hombre">Hombre</label>
                         <input type="radio" name="sexo" id="mujer">
                         <label for="mujer">Mujer</label>
                     </td>
                     <td colspan="2">
-                        <label for="televisores">Televisores en la casa: </label>
+                        <label for="televisores" class="under">Televisores en la casa: </label>
                         <input type="radio" name="televisores" id="0">
                         <label for="0">0</label>
                         <input type="radio" name="televisores" id="1">
@@ -53,7 +54,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <label for="">Lugares en los que hay televisión en casa:</label>
+                        <label for="" class="under">Lugares en los que hay televisión en casa:</label>
                     </td>
                 </tr>
                 <tr>
@@ -85,7 +86,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td colspan="3" class="botones">
                         <input type="submit" value="Enviar" name="enviar" id="enviar">
                         <input type="reset" value="Borrar" name="borrar" id="borrar">
                     </td>

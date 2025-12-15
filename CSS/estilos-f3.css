@@ -1,0 +1,37 @@
+body{
+    background-color: lightcyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-decoration: dashed underline blue;
+}
+
+fieldset{
+    border: 3px dashed blue;
+    
+}
+
+legend{
+    background-color: blue;
+    color: white;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+.under{
+    text-decoration: underline;
+}
+
+table{
+    border-spacing: 15px 15px;
+}
+
+td.botones{
+    text-align: right;
+}
+
+select{
+    width: 50px;
+}

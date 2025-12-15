@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(231, 183, 167);
+    color: darkred;
+}
+
+.negro{
+    color: black;
+    font-size: x-small;
+    vertical-align: middle;
+}
+
+input[type=checkbox], input[type=radio]{
+    width: 0.75em;
+    margin-right: -1px;
+}
+
+input[type=checkbox]{
+    vertical-align: middle;
+}
+
+input[type=radio]{
+    vertical-align: text-bottom;
+}
+
+input[type=text]{
+    border:1px solid darkred;
+}
+
+input[type=submit], input[type=reset]{
+    background-color: darkred;
+    color: white;
+    border: 1px solid white ;
+    font-size: x-small;
+    padding: 5px;
+}
+
+form{
+    border: 2px solid darkred;
+    padding: 10px;
+}
+
